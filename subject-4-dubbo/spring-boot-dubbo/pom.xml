@@ -35,11 +35,11 @@
 			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.alibaba.boot/dubbo-spring-boot-starter -->
-		<dependency>
-		    <groupId>com.alibaba.boot</groupId>
-		    <artifactId>dubbo-spring-boot-starter</artifactId>
-		    <version>0.2.1.RELEASE</version>
-		</dependency>
+<!--		<dependency>-->
+<!--		    <groupId>com.alibaba.boot</groupId>-->
+<!--		    <artifactId>dubbo-spring-boot-starter</artifactId>-->
+<!--		    <version>0.2.1.RELEASE</version>-->
+<!--		</dependency>-->
 		<dependency>
 		    <groupId>com.alibaba</groupId>
 		    <artifactId>dubbo</artifactId>
@@ -52,18 +52,18 @@
 		</dependency>
 		
 		<!-- 默认使用的是第三方zookeeper客户端 curator -->
-	<!-- 	<dependency>
+	 	<dependency>
 		    <groupId>org.apache.curator</groupId>
 		    <artifactId>curator-framework</artifactId>
 		    <version>4.2.0</version>
-		    如果你使用的zookeeper服务版本不是3.5的，请排除自动依赖，再单独引入zookeeper依赖
+<!--		    如果你使用的zookeeper服务版本不是3.5的，请排除自动依赖，再单独引入zookeeper依赖-->
 		    <exclusions>
 		    	<exclusion>
 		    		<groupId>org.apache.zookeeper</groupId>
 		    		<artifactId>zookeeper</artifactId>
 		    	</exclusion>
 		    </exclusions>
-		</dependency> -->
+		</dependency>
 		<!-- 引入zookeeper服务对应版本的zookeeper jar -->
 		<dependency>
 		    <groupId>org.apache.zookeeper</groupId>

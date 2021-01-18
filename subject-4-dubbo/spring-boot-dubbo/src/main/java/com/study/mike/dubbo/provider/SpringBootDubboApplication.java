@@ -1,5 +1,6 @@
 package com.study.mike.dubbo.provider;
 
+import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
@@ -8,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import com.alibaba.dubbo.remoting.http.servlet.DispatcherServlet;
 
 @SpringBootApplication
-// @EnableDubbo(scanBasePackages = "com.study.mike.dubbo.provider")
+@EnableDubbo(scanBasePackages = "com.study.mike.dubbo.provider")
 public class SpringBootDubboApplication {
 
 	public static void main(String[] args) {

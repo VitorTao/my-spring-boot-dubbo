@@ -17,7 +17,7 @@ public class ApiProviderConfiguration {
 		application.setName("hello-world-app");
 
 		// 连接注册中心配置。 请学习RegistryConfig的API
-		RegistryConfig registry = new RegistryConfig("224.5.6.7:1234", "multicast");
+		RegistryConfig registry = new RegistryConfig("10.200.122.57:2181", "multicast");
 
 		// 服务提供者协议配置
 		ProtocolConfig protocol = new ProtocolConfig();

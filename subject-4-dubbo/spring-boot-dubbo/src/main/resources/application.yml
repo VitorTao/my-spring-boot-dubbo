@@ -7,7 +7,7 @@ dubbo:
   application:
     name: service-app1
   registry:
-    address: zookeeper://127.0.0.1:2181
+    address: zookeeper://10.200.122.57:2181
   protocol:
     #name: memcached
     #name: http
@@ -19,5 +19,5 @@ dubbo:
     name: dubbo
     #port: 8080
     port: 20880
-  scan: 
-    base-packages: com.study.mike.dubbo.provider
+#  scan:
+#    base-packages: com.study.mike.dubbo.provider
